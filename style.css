@@ -15,6 +15,7 @@ nav {
     overflow: hidden;
     background-color:black; /* #333; */
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
 }
 
 
@@ -25,7 +26,6 @@ nav a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
 }
 
 /* Style the links inside the navigation bar upon hover action*/
@@ -38,7 +38,7 @@ nav a:hover {
 nav a.active {
     background-color: crimson; /* #4CAF50; */
     color: ghostwhite;
-    border-color: black;
+    /* border-color: black; */
     /* outline: none; */
 }
 
@@ -47,25 +47,19 @@ nav a.active {
 nav button {
     display: none;
     border: 0;
-    padding: none;
-    /* padding: 0px 16px; */
     background-color: black;
-    color: ghostwhite; /* #f2f2f2 */
+    color: ghostwhite;
     text-align: center;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 32px;
 }
 
 /* Style the hamburger button in navigation bar when the 
    screen is narrow and there is a hover action */
 nav button:hover {
-    border: 0;
-    padding: none;
     background-color: ghostwhite; /* #ddd */
     color: black;
-    text-align: center;
-    text-decoration: none;
-    font-size: 24px;
+    /* text-decoration: none; */
 }
 
 nav button:focus {
